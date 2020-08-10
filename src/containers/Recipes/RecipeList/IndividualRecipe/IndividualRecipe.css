@@ -1,0 +1,30 @@
+.IndividualRecipe {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 120px;
+}
+
+.Info {
+  display: inline-block;
+  padding: 10px;
+}
+
+.Info h4 {
+  margin: 0px;
+}
+
+.Info p {
+  margin: 0px;
+}
+
+.Picture {
+  display: block;
+  float: right;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.Picture img {
+  height: 100%;
+  width: auto;
+}
