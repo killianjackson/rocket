@@ -2,6 +2,8 @@
   box-sizing: border-box;
   border: 1px solid black;
   height: 120px;
+  min-width: 310px;
+  max-width: 500px;
 }
 
 .Info {
