@@ -1,8 +1,8 @@
 .IndividualRecipe {
   box-sizing: border-box;
   border: 1px solid black;
-  height: 120px;
-  min-width: 310px;
+  height: 100px;
+  min-width: 200px;
   max-width: 500px;
 }
 
@@ -29,4 +29,10 @@
 .Picture img {
   height: 100%;
   width: auto;
+}
+
+@media (max-width: 1153px) {
+  .Picture {
+    display: none;
+  }
 }

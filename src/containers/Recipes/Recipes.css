@@ -13,3 +13,12 @@
   vertical-align: top;
   margin: 0 1% 1% 1%;
 }
+
+@media (max-width: 780px) {
+  .RecipeListContainer {
+    display: none;
+  }
+  .FullRecipeContainer {
+    width: 98%;
+  }
+}
